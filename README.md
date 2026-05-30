@@ -1,13 +1,13 @@
 <!-- SPDX-License-Identifier: CC-BY-4.0 -->
 # Music Box
 
-Status: L1 concept packet
+Status: L2 V5 build-packet candidate
 
-This repository is a V5 L1 concept packet for a cylinder music box: a pinned
-rotating cylinder plucks tuned teeth on a steel comb while a governor and
-escapement regulate playback speed. The design focus is the mechanical timing
-chain from barrel pins to comb teeth, plus speed control, damping, and service
-access.
+This repository is a V5 L2 build-packet candidate for a cylinder music box: a
+pinned rotating cylinder plucks tuned teeth on a steel comb while a governor
+and escapement regulate playback speed. The design focus is the mechanical
+timing chain from barrel pins to comb teeth, plus speed control, damping, and
+service access.
 
 This packet is not a build-ready plan. It contains no released dimensions, no
 tuning table, no comb tooth lengths, no cylinder diameter, no pin coordinates,
@@ -17,11 +17,15 @@ measurement.
 
 ## Packet Map
 
-- `design.md` - mechanism study, subsystem interfaces, and measurement gates.
-- `bom.csv` - estimated part classes and unresolved procurement decisions.
-- `decision-record.md` - decisions, assumptions, and open questions.
+- `design.md` - mechanism study, subsystem interfaces, prototype sequence, and
+  measurement gates.
+- `bom.csv` - estimated part classes, review needs, and unresolved procurement
+  decisions.
+- `cut-list.csv` - L2 planning cut categories only; no released dimensions.
+- `decision-record.md` - decisions, L2 uplift notes, open questions, and
+  measurement plan.
 - `visual-output-register.csv` - V5 authority register; every row is
-  `concept_only`.
+  `concept_only` or `pending_measurement`.
 - `cad/mcp-session-log.md` - QMD Step 0 and tool provenance.
 
 ## Mechanism Summary
@@ -33,10 +37,9 @@ measurement.
 - The drive train, spring or crank input, bearings, stop/start control, case,
   and resonance path are all pending measurement and prototype review.
 
-## Readiness Boundary
+## L2 Readiness Boundary
 
-L1 means this repo captures mechanism intent, risks, and first test questions
-only. Promotion to L2 requires reviewed parameter names, a measurement plan,
-and a clear separation between comb authority, cylinder authority, governor
-authority, and any future CAD or visual artifacts.
-
+L2 means this repo now separates the major subsystems, names the unresolved
+interfaces, and provides planning tables for review. It still is not L3:
+promotion requires measured comb coupons, pin-release tests, governor-speed
+evidence, cylinder-to-comb registration data, and reviewed CAD or drawings.
