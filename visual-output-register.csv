@@ -1,0 +1,8 @@
+artifact_id,path,artifact_kind,role,authority,derived_from,dimension_claim,fabrication_required,notes
+readme,README.md,measurement_template,concept,concept_only,,none,false,"L1 concept overview only; no fabrication authority."
+design,design.md,measurement_template,concept,concept_only,,none,false,"Mechanism and risk map for pinned cylinder, steel comb, governor, escapement, and drive; no released dimensions or tuning values."
+bom,bom.csv,design_table,concept,concept_only,design.md,none,false,"Estimated subsystem list only; physical parts require review and measurement before fabrication."
+decision-record,decision-record.md,measurement_template,story,concept_only,design.md,none,false,"Captures decisions and open questions for future review."
+mcp-session-log,cad/mcp-session-log.md,measurement_template,build_log,concept_only,,none,false,"Records QMD Step 0 outcomes and absence of MCP/CAD authoring."
+future-cad,cad/,cad,concept,concept_only,design.md,none,false,"Reserved for future CAD after measured or reviewed parameters exist; no CAD geometry is present."
+

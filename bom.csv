@@ -1,0 +1,13 @@
+item_id,subsystem,item,authority,source_status,notes
+case-frame,structure,case and internal frame,pending_measurement,concept_estimate,"Material, resonance role, access, and alignment strategy are unresolved."
+cylinder,program,pinned rotating cylinder,pending_measurement,concept_estimate,"Cylinder size, material, pin grid, and bearing design are not specified."
+pins,program,cylinder pins or bumps,pending_measurement,concept_estimate,"Pin profile, height, retention, and surface finish require testing."
+steel-comb,sound-generator,tuned steel comb,pending_measurement,concept_estimate,"No tooth count, tooth length, material grade, or tuning values are specified."
+comb-mount,sound-generator,comb mounting block and fasteners,pending_measurement,concept_estimate,"Mount stiffness and service access must be tested."
+governor,speed-control,governor,pending_measurement,concept_estimate,"Architecture, speed range, and noise behavior are unresolved."
+escapement,speed-control,escapement or stop-start control,pending_measurement,concept_estimate,"Timing, release behavior, and wear require prototype review."
+drive-source,drive,spring crank or weight drive,pending_measurement,concept_estimate,"Drive type is undecided; no torque or force values are claimed."
+gear-train,drive,gear train and bearings,pending_measurement,concept_estimate,"Ratios, backlash, lubrication, and noise are pending measurement."
+damper,acoustics,optional damping or mute elements,pending_measurement,concept_estimate,"Damping strategy is unresolved."
+setup-log,validation,comb pin governor and drive setup log,concept_only,planned,"Future log for tooth, pin, alignment, speed stability, noise, and service tests."
+
