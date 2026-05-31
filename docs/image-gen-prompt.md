@@ -1,19 +1,20 @@
-# Image-Gen Prompt - Music Box
+<!-- SPDX-License-Identifier: CC-BY-4.0 -->
+# Image-Gen Prompts
 
-Concept image only; not fabrication authority. Do not include cut-ready dimensions, pin coordinates, comb tooth lengths, or toolpaths.
+Concept image only; not fabrication authority. Do not include cut-ready dimensions, hole locations, or toolpaths.
 
 ## Hero Prompt
 
-Photorealistic studio product photograph of a finished cylinder music box mechanism in a refined serviceable case: a polished pinned brass or steel cylinder aligned with a tuned steel comb, visible governor and escapement, small bearings and drive train, removable inspection panel, and a warm wood resonant base. Show the object as a real mechanical timing instrument, clean studio background, three-quarter product-photography angle, soft directional studio lighting, approximately 50mm lens, high detail, precise metalwork, no logos.
+A complete mechanical cylinder music box presented as a real, finished physical object on a clean neutral mid-gray studio sweep, photographed in three-quarter product-photography view at roughly a 50mm lens perspective with soft directional studio light raking across the works. The signature silhouette reads instantly: a horizontal pinned cylinder running left to right, its brass-toned surface covered in tiny raised pins, journaled at both ends in a stout machined baseplate, with a long tuned steel comb mounted alongside so the graduated comb teeth lie just beneath the cylinder pins. At one end of the baseplate sits the speed-control assembly — a small fan-style governor and an escapement — fed by a drive train and a winding or crank input. The steel comb shows the characteristic bank of fine teeth stepping from longer to shorter with a polished blued-steel sheen; the cylinder and gear train carry warm brass and bright steel tones; the frame suggests a machined metal works on a wood case with an open or removable top exposing the mechanism. Realistic small-machine scale — a tabletop mechanism that fits in two hands — crisp focus on the cylinder-and-comb interface, photorealistic, high detail, no text labels, no invented decorative engraving. Avoid: no text, logos, watermarks, or fake maker marks; no dimension lines, callouts, tuning numbers, or pin-grid coordinates; no impossible or floating mechanisms; cylinder and comb must stay in plausible mechanical alignment; anatomically plausible hands if any are shown. IMPORTANT: This image is a concept visualization only. Do not include dimension lines, measurements, or fabrication specifications. The image is not authoritative for any physical build dimension.
 
 ## In-Context Prompt
 
-Photorealistic bench-top scene of the music box being gently wound or hand-cranked in a small luthier-mechanic workshop, natural side light, tiny tools and a comb coupon nearby, the pinned cylinder rotating toward the comb teeth, governor visible as a delicate speed-control assembly, warm wood shavings and brass reflections, realistic human hands.
+The same cylinder music box staged open on a workshop bench under soft natural window light, its wooden case top lifted away to reveal the brass pinned cylinder, the bank of steel comb teeth, and the little governor spinning at one end, with a few clockmaker's tools, an oil pen, and a loupe resting nearby. Warm environmental storytelling of a tuning-and-service session, shallow depth of field holding the comb-and-cylinder works sharp while the bench background falls into gentle blur, concept visualization only, photorealistic, no text or measurement callouts. Avoid: no text, logos, watermarks, or fake maker marks; no dimension callouts or tuning numbers; no impossible or floating mechanisms; cylinder and comb stay in plausible alignment; anatomically plausible hands if shown. IMPORTANT: This image is a concept visualization only. Do not include dimension lines, measurements, or fabrication specifications. The image is not authoritative for any physical build dimension.
 
-## Detail/Macro Prompt
+## Detail Prompt
 
-Macro photorealistic close-up of the pinned cylinder lifting and releasing individual steel comb teeth, showing pin height, tooth tips, polished comb root, and the gap where alignment matters, shallow depth of field, crisp machined metal, soft highlights, no readable markings.
+Macro close-up of the signature pluck-and-release interface: raised pins on the rotating brass cylinder catching and lifting the tips of the graduated steel comb teeth, captured at the exact moment one tooth is bent and about to release into vibration, with low raking side light picking out the blued-steel grain of the teeth, the bright turned pins, the polished comb root, and the fine machined edges where tooth tips meet pins. Extreme detail on metal surface texture and the stepped tooth lengths, shallow-focus photorealistic macro, no measurements. Avoid: no text, logos, watermarks, or fake maker marks; no dimension lines, callouts, tuning numbers, or pin-grid coordinates; no impossible or floating mechanisms; cylinder and comb stay in plausible alignment. IMPORTANT: This image is a concept visualization only. Do not include dimension lines, measurements, or fabrication specifications. The image is not authoritative for any physical build dimension.
 
-## Negative/Avoid
+## Negative / Avoid
 
-No text, no watermarks, no brand marks, no fantasy gears, no impossible pin-tooth alignment, no cut-ready pin grid, no extra limbs, anatomically plausible hands if shown.
+No text/logos/watermarks/fake maker marks, no dimension callouts or tuning numbers, no impossible or floating mechanisms, cylinder and comb stay in plausible mechanical alignment; anatomically plausible hands if a player is shown.
