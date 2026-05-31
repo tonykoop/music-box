@@ -6,3 +6,5 @@ cut-list,cut-list.csv,cut_list,planning,pending_measurement,design.md,no_release
 decision-record,decision-record.md,measurement_template,story,concept_only,design.md,none,false,"Captures L2 uplift decisions open questions and measurement plan."
 mcp-session-log,cad/mcp-session-log.md,measurement_template,build_log,concept_only,,none,false,"Records QMD Step 0 outcomes and absence of MCP/CAD authoring."
 future-cad,cad/,cad,concept,concept_only,design.md,none,false,"Reserved for future CAD after measured or reviewed parameters exist; no CAD geometry is present."
+wolfram-starter,music-box-starter.wl,wolfram_starter,source_entrypoint,reference_only,wolfram/music-box-wolfram-model.wl,none,false,"Thin Wolfram entry point; source only, not fabrication authority."
+wolfram-model,wolfram/music-box-wolfram-model.wl,wolfram_model,parametric_acoustic_model,reference_only,design.md,estimate_relationships_only,false,"Symbolic estimate-only comb tooth/cylinder timing model; every physical number remains pending measurement."
