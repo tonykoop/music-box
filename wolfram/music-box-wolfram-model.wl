@@ -80,7 +80,7 @@ musicBoxSymbolicModel = <|
    "cylinderEventRate" -> eventRate[cylinderAngularSpeedEstimate, eventRowsPerRevolutionEstimate]
    |>;
 
-Manipulate[
+musicBoxExplorer = Manipulate[
  Module[
   {
    lengthQuantity = Quantity[length, "Meters"],
