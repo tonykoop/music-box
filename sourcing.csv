@@ -1,0 +1,8 @@
+item,required_spec,search_terms,supplier_candidates,date_checked,unit_price_usd,lead_time,substitution_risk,notes
+Steel comb stock (bom.csv steel-comb),"tuned steel comb blank; tooth count/geometry TBD","music box comb blank; tuned steel comb replacement","music-box parts suppliers; specialty steel suppliers",TBD,TBD,TBD,High,"No tooth count, length schedule, or heat-treatment spec decided yet"
+Pinned cylinder blank (bom.csv cylinder),"cylinder blank; diameter/length/pin-grid TBD","music box cylinder blank; barrel blank","music-box parts suppliers",TBD,TBD,TBD,High,"No cylinder dimensions exist anywhere in this packet"
+Cylinder bearings/pivots (bom.csv cylinder-bearings),"low-friction, serviceable, quiet bearing/pivot","small shaft bearing; brass bushing","hardware suppliers",TBD,TBD,TBD,Medium,"Bearing choice pending noise/friction tradeoff review"
+Governor hardware (bom.csv governor),"fan/flyball/friction governor candidate parts","music box governor; fan governor mechanism","clockmaking/music-box parts suppliers",TBD,TBD,TBD,High,"Architecture undecided"
+Drive source (bom.csv drive-source),"spring motor, hand crank, or weight drive","music box spring motor; clock spring motor","clockmaking suppliers",TBD,TBD,TBD,Medium,"Drive type undecided"
+Gear train (bom.csv gear-train),"gear train + bearings for drive-to-cylinder","clock gear train; music box movement gears","clockmaking suppliers",TBD,TBD,TBD,Medium,"Ratios/backlash pending measurement"
+Comb/pin test coupon stock (bom.csv test-comb-coupon / test-pin-coupon),"small steel stock for coupon fixtures","spring steel strip; music box comb steel","specialty steel suppliers",TBD,TBD,TBD,Low,"Coupon-only, not a released instrument part"

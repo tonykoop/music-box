@@ -1,0 +1,26 @@
+{
+  "product": "music-box",
+  "pipeline": "studiopipeline:evolution-pipeline",
+  "stage": "0-intake",
+  "master_revision": "rev-A (pre-commit intake, 2026-07-01)",
+  "generated": "2026-07-01",
+  "cad_masters": [
+    {
+      "path": "cad/music-box.scad",
+      "format": "openscad-source",
+      "sha256": "42447cba881d705c038f09c067625c201e31f13fbec6c0252572c179f7568e0c",
+      "authority": "pending_measurement",
+      "lossy": false,
+      "notes": "Comb (18 identical representative teeth) + cylinder-length envelope; first CAD master for this repo. Cylinder diameter is an explicit non-dimension schematic placeholder, not a claim."
+    },
+    {
+      "path": "wolfram/music-box-wolfram-model.wl",
+      "format": "wolfram-source",
+      "sha256": "be43b661a247186a8062b97b8c770b607b48f50060893f0a507e8346d14bbf5f",
+      "authority": "reference_only",
+      "lossy": false,
+      "notes": "Source-only estimate model (comb tooth cantilever frequency, cylinder event rate); cad/music-box.scad mirrors its formulas and constants exactly."
+    }
+  ],
+  "notes": "OpenSCAD source is the current master; no STEP export yet. L2 V5 build-packet candidate — decision-record.md explicitly defers CAD/DXF release until comb, pin-release, registration, and speed-control mules produce measured evidence. Gate A (Alpha workspace compile) not yet run and not applicable until then."
+}
