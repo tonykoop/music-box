@@ -1,0 +1,7 @@
+check_id,area,target,method,tolerance,measured,result,action
+VAL-001,Comb coupon,"tooth speech, sustain, stress, and tuning workflow characterized","comb coupon build + strike test (design.md Prototype Sequence step 1)",measurement_required,TBD,TBD,"Revise tooth material/geometry/mount if speech or fatigue fails"
+VAL-002,Pin-release coupon,"pin lifts/releases one tooth without scrape, jam, or over-bend","pin-release coupon cycling test (step 2)",measurement_required,TBD,TBD,"Revise pin profile/clearance/finish if release fails"
+VAL-003,Registration mule,"cylinder-to-comb lane alignment without side loading","short un-tuned cylinder segment test (step 3)",measurement_required,TBD,TBD,"Revise lane spacing/datum strategy if misaligned"
+VAL-004,Speed-control mule,"governor/escapement holds steady speed under load change with acceptable noise","drive + governor + load simulator test (step 4)",measurement_required,TBD,TBD,"Change governor architecture or drive if unstable/noisy"
+VAL-005,Integrated bench mule,"small cylinder + comb coupon + temporary frame play cleanly together","bench mule assembly test (step 5)",measurement_required,TBD,TBD,"Identify missing parameters before scaling to full instrument"
+VAL-006,Case/resonance,"case adds resonance without amplifying gear/escapement noise","comparative listening test, isolated vs. cased",measurement_required,TBD,TBD,"Revise case material/isolation if gear noise dominates"

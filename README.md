@@ -10,9 +10,12 @@ timing chain from barrel pins to comb teeth, plus speed control, damping, and
 service access.
 
 This packet is not a build-ready plan. It contains no released dimensions, no
-tuning table, no comb tooth lengths, no cylinder diameter, no pin coordinates,
-no governor speed target, no DXF coordinates, no CAD geometry, and no
-fabrication instructions. All physical claims are concept-only or pending
+tuning table, no comb tooth-tuning schedule, no cylinder diameter, no pin
+coordinates, no governor speed target, no DXF coordinates, and no fabrication
+instructions. `cad/music-box.scad` is a `pending_measurement` envelope
+scaffold only (comb tooth dimensions copied from the Wolfram estimate model;
+cylinder diameter is an explicit non-dimension placeholder) — it is not
+fabrication-authority CAD. All physical claims are concept-only or pending
 measurement.
 
 ## Packet Map
@@ -22,11 +25,17 @@ measurement.
 - `bom.csv` - estimated part classes, review needs, and unresolved procurement
   decisions.
 - `cut-list.csv` - L2 planning cut categories only; no released dimensions.
+- `sourcing.csv` - supplier/spec candidates only; all TBD.
+- `validation.csv` - future measurement gates (comb, pin, registration, speed, case).
+- `risks.md` - mechanical, acoustic, fabrication, and safety risks.
+- `drawing-brief.md` - no drawings authorized yet; future gated drawing needs.
+- `cad/music-box.scad` - comb + cylinder-length envelope (pending_measurement; not fabrication authority).
 - `decision-record.md` - decisions, L2 uplift notes, open questions, and
   measurement plan.
 - `visual-output-register.csv` - V5 authority register; every row is
   `concept_only` or `pending_measurement`.
 - `cad/mcp-session-log.md` - QMD Step 0 and tool provenance.
+- `evolution/` - Stage 0 intake only (manifest, design-intent, revisions); Gate A not yet run.
 
 ## Mechanism Summary
 
